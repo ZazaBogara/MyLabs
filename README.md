@@ -1,3 +1,4 @@
 # IoT-My-first-repository
-Lets do it with Veres
-First commit
+
+This repository is about my labs in the First Course in University
+
