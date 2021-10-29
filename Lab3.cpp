@@ -2,18 +2,18 @@
 
 int main()
 {
-	int sizeOfArray=0;
+	int size_of_array=0;
 	printf("Size of array?: ");
-	scanf("%d", &sizeOfArray);
-	sizeOfArray--;
-	int array[sizeOfArray];
-	for (int i=0;i<=sizeOfArray;i++)
+	scanf("%d", &size_of_array);
+	size_of_array--;
+	int array[size_of_array];
+	for (int i=0;i<=size_of_array;i++)
 	{
 		scanf("%d", &array[i]);
 	}
-	int max_Counter=0;
+	int max_сounter=0;
 	int max_element=0;
-	for (int i = 0; i <= sizeOfArray; i++)
+	for (int i = 0; i <= size_of_array; i++)
 	{
 		int transitive_element = array[i];
 		int counter = 0;
@@ -24,10 +24,10 @@ int main()
 		}
 		if (counter > max_max)
 		{
-			max_Counter=counter;
+			max_сounter=counter;
 			max_element = temp;
 		}
 	}
-	printf("Counter:%d \n, Which is max:%d", max_Counter, max_element);
+	printf("Counter:%d \n, Which is max:%d", max_сounter, max_element);
 	return 0;
 }
