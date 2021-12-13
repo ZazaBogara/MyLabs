@@ -17,12 +17,12 @@ int main()
 	{
 		int transitive_element = array[i];
 		int counter = 0;
-		for (int j = 0; j <= n; j++)
+		for (int j = 0; j <= size_of_array; j++)
 		{
 			if (transitive_element == array[j])
 				counter++;
 		}
-		if (counter > max_max)
+		if (counter > max_element)
 		{
 			max_сounter=counter;
 			max_element = temp;
