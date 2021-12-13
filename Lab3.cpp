@@ -25,7 +25,7 @@ int main()
 		if (counter > max_element)
 		{
 			max_сounter=counter;
-			max_element = temp;
+			max_element = transitive_element;
 		}
 	}
 	printf("Counter:%d \n, Which is max:%d", max_сounter, max_element);
